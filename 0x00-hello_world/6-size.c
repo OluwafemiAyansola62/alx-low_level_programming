@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  * main - Oututs the size of diff var types
- *
  * Return: Always 0 (Successful)
  */
 int main(void)
@@ -11,7 +10,6 @@ int main(void)
 	long int e;
 	long long int f;
 	float g;
-
 	printf("Size of a char: %dbyte(s)\n", sizeof(c));
 	printf("Size of a int: %dbyte(s)\n", sizeof(d));
 	printf("Size of a long int: %dbyte(s)\n", sizeof(e));
