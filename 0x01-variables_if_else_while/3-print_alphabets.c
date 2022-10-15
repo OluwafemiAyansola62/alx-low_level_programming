@@ -1,14 +1,14 @@
 #include <stdio.h>
-/**
- * main - block
- * return: Always 0 (Success)
+/*8
+ * main - prints upper and lowercase alphabets
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
-	for (i =0; i < 52; i++)
+	for (i = 0; i < 52; i++)
 	{
 		putchar(alp[i]);
 	}
