@@ -1,4 +1,4 @@
-#include <stfio.h>
+#include <stdio.h>
 /**
  * main - numbers less than ten
  * Return: Always 0 (Success)
