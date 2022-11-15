@@ -1,15 +1,12 @@
-#ifndef DOG_FILE
-#define DOG_FILE
+#ifndef DOG_H
+#define DOG_H
 
 /**
- * struct dog - the biodata of a dog
- * @name: first member
- * @age: second member
- * @owner: third member
- *
- * Description: this data type stores a comprehensive info
- * about dogs. e.g their names, age, and owner's name.
- */
+* struct dog - structure
+* @name: character
+* @age: float
+* @owner: character
+*/
 struct dog
 {
 	char *name;
@@ -17,18 +14,15 @@ struct dog
 	char *owner;
 };
 
-/**
- * * dog_t - Typedef for struct dog
- *
-
 typedef struct dog dog_t;
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
+
 
 void print_dog(struct dog *d);
 
 dog_t *new_dog(char *name, float age, char *owner);
 
 void free_dog(dog_t *d);
-*/
-#endif
+
+#endif /*DOG_H*/
